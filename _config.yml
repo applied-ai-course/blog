@@ -7,7 +7,7 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: AppliedAI Blog
-description: blogs from the applied ai course team
+description: Simple, Crisp and easy-to-understand explanations of concepts/code related to Data Science, Machine Learning and AI.
 github_username: applied-ai-course
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "AppliedAI-Blog"
