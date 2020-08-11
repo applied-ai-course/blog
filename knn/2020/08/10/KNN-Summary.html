@@ -179,19 +179,19 @@ $m$ - Number of epochs in SGD</p>
 <h2 id="Algorithm">
 <a class="anchor" href="#Algorithm" aria-hidden="true"><span class="octicon octicon-link"></span></a>Algorithm<a class="anchor-link" href="#Algorithm"> </a>
 </h2>
-<ol>
+<ul>
 <li>Given a query point $X_{qn}$, find the $k$ nearest points in $X$. (You can use any distance metric)</li>
 <li>Count which class has maximum points in those $k$ nearest points and classify given query point $X_{qn}$ belongs to the same class. We can give weightage to the nearest points based on the distance (any function of distance). </li>
 <li>Probability of belonging to the specific class in a classification scenario is </li>
-</ol>
+</ul>
 <p><br>
 \begin{align}
 P(Y=C_i|X_q) = \frac{1}{K}\sum_{i\epsilon N_k}I(y_i==C_i) \\I(true) = 1, I(false) = 0
 \end{align}
 <br></p>
-<ol>
+<ul>
 <li>If we use KNN to solve the regression problem, we can get the average of nearest points and gives as output.</li>
-</ol>
+</ul>
 <p><br>
 \begin{align}
 Y_{X_q} = \frac{1}{K}\sum_{i\epsilon N_k}y_i
